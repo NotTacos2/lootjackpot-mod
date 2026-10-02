@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "jackpotloot",
+  "version": "${version}",
+  "name": "jackpotloot",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "jackpotloot.Main"
+    ]
+  },
+  "mixins": [
+    "jackpotloot.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "~26.2",
+    "fabric-api": "*"
+  }
+}
