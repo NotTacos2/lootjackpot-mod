@@ -98,5 +98,28 @@ public class Settings {
         public static int normal = 1;
     }
 
+    public static class GraniteAmount {
+        public static int lucky = 2;
+        public static int jackpot = 5;
+        public static int normal = 1;
+    }
+
+    public static class DripstoneAmount {
+        public static int lucky = 2;
+        public static int jackpot = 5;
+        public static int normal = 1;
+    }
+
+    public static class PointedDripstoneAmount {
+        public static int lucky = 2;
+        public static int jackpot = 5;
+        public static int normal = 1;
+    }
+
+    public static class DioriteAmount {
+        public static int lucky = 2;
+        public static int jackpot = 5;
+        public static int normal = 1;
+    }
 
 }
